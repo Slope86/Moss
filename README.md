@@ -1,16 +1,16 @@
-# MOSS script for Java project comparison
+# MOSS Script for Java Project Comparison
 
 A Python script to Java project using Stanford's MOSS plagiarism detection system.
 
 The script operates in directory mode, allowing it to compare a project with multiple files instead of just a single file.
 
-## Install dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Setup your MOSS account
+## Set Up Your MOSS Account
 
 1. Go to [MOSS](https://theory.stanford.edu/~aiken/moss/) and create an account.
 1. Create a `config.ini` file in the root directory of the project and add the following line to it:
@@ -27,15 +27,15 @@ pip install -r requirements.txt
     ```plaintext
     .
     ├── base_folder
-    |   ├── templateA.py
-    |   └── templateB.py
-    └── compare_folder
+    |   ├── templateA.java
+    |   └── templateB.java
+    └── comparing_folder
         ├── student1
-        |   ├── main.java
-        |   └── helper.java
+        |   ├── Homework.java
+        |   └── Helper.java
         └── student2
-            ├── main.java
-            └── helper.java
+            ├── Homework.java
+            └── Helper.java
     ```
 
 1. Execute the following command:
@@ -44,6 +44,6 @@ pip install -r requirements.txt
     python moss.py
     ```
 
-1. A pop-up window will appear asking you to select the base folder and the compare folder. (If there is no template code, just press cancel on the pop-up window.)
+1. A pop-up window will appear asking you to select the base folder and the comparing folder, if there is no base folder (no template code), simply press 'Cancel' on the pop-up window.
 
 1. Wait for the script to finish executing. The results will be displayed in the terminal and a link to the MOSS report will be generated.
