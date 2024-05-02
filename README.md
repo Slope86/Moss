@@ -1,6 +1,6 @@
 # MOSS Script for Java Project Comparison
 
-A Python script to Java project using Stanford's MOSS plagiarism detection system.
+A Python script to compare Java projects using Stanford's MOSS plagiarism detection system.
 
 The script operates in directory mode, allowing it to compare a project with multiple files instead of just a single file.
 
