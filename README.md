@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ## Set Up Your MOSS user ID
 
 1. Go to [MOSS](https://theory.stanford.edu/~aiken/moss/) and register for a user ID.
-1. Create a `config.ini` file in the root directory of the project and add the following line to it:
+1. Create a `config.ini` file in the root directory and add the following line to it:
 
     ```bash
     [moss]
