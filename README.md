@@ -20,7 +20,7 @@ pip install -r requirements.txt
     userid = 123456789  # Replace this with your user ID
     ```
 
-## Running the script
+## Run the Script
 
 1. Create a folder containing the base files and another folder containing all the files you want to compare, the structure of the folders should be as follows:
 
