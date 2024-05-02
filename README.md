@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Run the Script
 
-1. Create a folder containing the base files and another folder containing all the files you want to compare, the structure of the folders should be as follows:
+1. Create a folder containing the base files and another folder containing the files you want to compare, the structure of the folders should be as follows:
 
     ```plaintext
     .
