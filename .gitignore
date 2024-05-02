@@ -1,0 +1,6 @@
+.conda/
+backup/
+base/
+compare/
+report/
+config.ini
